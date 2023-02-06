@@ -22,7 +22,7 @@ const Featured = () => {
         <div className="summary">
           <div className="item">
             <div className="itemTitle">Target</div>
-            <div className="itemResult">
+            <div className="itemResult negative">
               <div className="resultAmount">
                 <KeyboardArrowDownOutlined fontSize="small" />
                 $10K
@@ -30,20 +30,20 @@ const Featured = () => {
             </div>
           </div>
           <div className="item">
-            <div className="itemTitle">Target</div>
-            <div className="itemResult">
+            <div className="itemTitle">Last Week</div>
+            <div className="itemResult positive">
               <div className="resultAmount">
-                <KeyboardArrowDownOutlined fontSize="small" />
+                <KeyboardArrowUpOutlined fontSize="small" />
                 $10K
                 </div>
             </div>
           </div>
           <div className="item">
-            <div className="itemTitle">Target</div>
-            <div className="itemResult">
+            <div className="itemTitle">Last Month</div>
+            <div className="itemResult positive">
               <div className="resultAmount">
-                <KeyboardArrowDownOutlined fontSize="small" />
-                $10K
+                <KeyboardArrowUpOutlined fontSize="small" />
+                $150K
                 </div>
             </div>
           </div>

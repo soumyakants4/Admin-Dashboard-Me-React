@@ -51,6 +51,34 @@
         width: 100%;
         display: flex;
         align-items: center;
+        text-align: center;
         justify-content: space-between;
+    
+        .item{
+            text-align: center;
+            align-items: center;
+            
+            .itemTitle{
+                font-size: 13px;
+                color: grey;
+            }
+
+            .itemResult{
+                display: flex;
+                align-items: center;
+                margin-top: 10px;
+                font-size: 13px;
+
+                &.positive{
+                    color:green;
+                }
+                &.negative{
+                    color:red;
+                }
+
+            }
+        }
+    
     }
+
 }
