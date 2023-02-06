@@ -4,6 +4,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import "react-circular-progressbar/dist/styles.css";
 import { KeyboardArrowUpOutlined } from "@mui/icons-material";
 import { KeyboardArrowDownOutlined } from "@mui/icons-material";
+
 const Featured = () => {
   return (
     <div className="featured">
