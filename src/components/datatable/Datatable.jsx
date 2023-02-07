@@ -5,30 +5,29 @@ import {
   userRows,
 } from "/Users/soumyakant.sahoo/Desktop/admin-dashboard/src/datatablesource";
 
-const actionColumn = [
-  {
-    field: "action",
-    headName: "action",
-    width: 200,
-    renderCell: (params) => {
-      return (
-        <div className="cellAction">
-          <div className="viewButton">View</div>
-          <div className="deleteButton">Delete</div>
-        </div>
-      );
-    },
-  },
-];
-
 const Datatable = () => {
+  const actionColumn = [
+    {
+      field: "action",
+      headName: "Action",
+      width: 200,
+      renderCell: () => {
+        return (
+          <div className="cellAction">
+            <div className="viewButton">View</div>
+            <div className="deleteButton">Delete</div>
+          </div>
+        );
+      },
+    },
+  ];
   return (
     <div className="datatable">
       <DataGrid
         rows={userRows}
         columns={userColumns.concat(actionColumn)}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
+        pageSize={9}
+        rowsPerPageOptions={[9]}
         checkboxSelection
       />
     </div>

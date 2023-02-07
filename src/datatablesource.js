@@ -11,10 +11,10 @@ export const userColumns = [
         }
     },
     { field: "email", headerName: "Email", width: 260 },
-    { field: "age", headerName: "Age", width: 40 },
+    { field: "age", headerName: "Age", width: 60 },
     { field: "status", 
     headerName: "Status", 
-    width: 90,
+    width: 100,
     renderCell:(params) => {
         return(
             <div className={`cellWithStatus ${params.row.status}`}>{params.row.status}</div>
