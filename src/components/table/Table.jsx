@@ -33,7 +33,7 @@ const List = () => {
       id: 2000002,
       product: "Redragon S101",
       img: "https://m.media-amazon.com/images/I/71kr3WAj1FL._AC_UY327_FMwebp_QL65_.jpg",
-      customer: "Sudhansu Kumar",
+      customer: "Sudhanshu Kumar",
       date: "3 March 2023",
       amount: 2999,
       method: "Cash on Delivery",

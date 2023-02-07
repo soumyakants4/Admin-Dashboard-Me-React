@@ -1,5 +1,28 @@
 {
     "marquee.widgets.npm-stats.packageNames": [
         "admin-dashboard"
+    ],
+    "cSpell.words": [
+        "ASUS",
+        "Barik",
+        "Behera",
+        "datatable",
+        "datatablesource",
+        "Kumar",
+        "Pratik",
+        "Redragon",
+        "Strix",
+        "Sudhanshu",
+        "Sudhansu",
+        "Yaduvanshi",
+        "Yash",
+        "Yashraj"
+    ],
+    "cSpell.ignoreWords": [
+        "Cersei",
+        "Daenerys",
+        "Lannister",
+        "Melisandre",
+        "Targaryen"
     ]
 }
