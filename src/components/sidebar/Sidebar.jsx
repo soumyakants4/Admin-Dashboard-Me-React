@@ -11,14 +11,15 @@ import PsychologyIcon from '@mui/icons-material/Psychology';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
-
-
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
+        <Link to = "/">
         <span className="logo">DekkoAdmin</span>
+        </Link>
       </div>
       <hr/>
       <div className="center">
