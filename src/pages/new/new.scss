@@ -10,7 +10,9 @@
       -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
       box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
       border-radius: 8px;
+      padding: 10px;
       margin: 20px;
+      display: flex;
 
       h1 {
         color: rgba(26, 26, 26, 0.719);
@@ -58,6 +60,7 @@
               border-bottom: 1px solid gray;
             }
           }
+
           button {
             cursor: pointer;
             width: 150px;

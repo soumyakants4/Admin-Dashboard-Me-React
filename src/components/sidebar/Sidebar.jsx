@@ -37,10 +37,10 @@ const Sidebar = () => {
             </li>
           </Link>
           <Link to="/products" style={{ textDecoration: "none" }}>
-          <li>
-            <Inventory2Icon className="icon" />
-            <span>Products</span>
-          </li>
+            <li>
+              <Inventory2Icon className="icon" />
+              <span>Products</span>
+            </li>
           </Link>
           <li>
             <OutboxIcon className="icon" />
@@ -51,7 +51,7 @@ const Sidebar = () => {
             <span>Delivery</span>
           </li>
           <li>
-            <p className="title">USEFUL LINKS</p>
+            <p className="title">USEFUL</p>
             <AssessmentIcon className="icon" />
             <span>Stats</span>
           </li>
