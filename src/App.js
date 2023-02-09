@@ -8,7 +8,7 @@ import { productInputs, userInputs } from "./formSource";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app dark">
       <BrowserRouter>
         <Routes>
           <Route path="/">
